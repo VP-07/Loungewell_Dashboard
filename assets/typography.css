@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+body{
+  background-color: #faf3e3;
+  color: rgb(59,34,8);
+  font-family: 'Lora';
+  /* border-style: solid; */
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#xaxis_raditem,#yaxis_raditem{
+  display: contents;
+  padding: 10px;
+  accent-color: #3d8361;
+}
+#heading{
+  padding-bottom: 20px;
+  
+}
+label{
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 50px;
+  
+}
+#the_graph{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  
+}
