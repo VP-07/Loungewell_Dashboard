@@ -16,6 +16,7 @@ df = pd.read_csv('price_prediction.csv')
 # Create the Dash app
 # app = dash.Dash()
 app = dash.Dash(__name__)
+server = app.server
 
 #Set up the app layout
 app.layout = html.Div([
